@@ -1,11 +1,11 @@
-# 資料探勘作業二（Homework 2）：紅酒品質多元線性迴歸預測與 CRISP-DM 實踐分析報告
+﻿# 物聯網數據分析與應用作業二（Homework 2）：紅酒品質多元線性迴歸預測與 CRISP-DM 實踐分析報告
 
 ---
 
 ## 專案基本資訊
 - **學生姓名**：[待填寫]
 - **學號**：7115056206
-- **課程名稱**：資料探勘 (Data Mining)
+- **課程名稱**：物聯網數據分析與應用 (Data Mining)
 - **程式檔案**：[hw2.py](hw2.py)（繳交版本命名為 `7115056206.py`）
 - **資料集來源**：Kaggle Red Wine Quality Dataset (Cortez et al., 2009)
   - Kaggle 原始連結：[https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
@@ -16,7 +16,7 @@
 
 ## 摘要 (Executive Summary)
 
-本研究以跨行業資料探勘標準流程（**CRISP-DM**）為指導框架，針對葡萄牙「Vinho Verde」紅酒之 11 項物理化學指標建立紅酒感官評鑑品質（`quality`）之預測模型。本作業全面實現了無資料外洩（Leak-free）的機器學習管線（Pipeline）、5 折交叉驗證特徵選取（SelectKBest）、主模型係數解釋、多模型比較，以及本作業特別要求之**具有統計理論依據的 95% 保形預測區間（Split Conformal Prediction）**。
+本研究以跨行業物聯網數據分析與應用標準流程（**CRISP-DM**）為指導框架，針對葡萄牙「Vinho Verde」紅酒之 11 項物理化學指標建立紅酒感官評鑑品質（`quality`）之預測模型。本作業全面實現了無資料外洩（Leak-free）的機器學習管線（Pipeline）、5 折交叉驗證特徵選取（SelectKBest）、主模型係數解釋、多模型比較，以及本作業特別要求之**具有統計理論依據的 95% 保形預測區間（Split Conformal Prediction）**。
 
 ### 核心成果指標摘要
 | 模型名稱 | 訓練集 R² | 測試集 R² | 測試集 MAE | 測試集 RMSE | 5 折 CV 平均 RMSE |
@@ -71,7 +71,7 @@
 ### 2.2 資料品質與重複值檢驗
 - **缺失值（Missing Values）**：全資料集統計缺失值數量為 **0**，無任何空值或需刪除之欄位。
 - **重複列（Duplicate Rows）**：檢驗發現存在 **240** 筆特徵完全相同之重複樣本（佔比約 15%）。
-  > **資料探勘決策**：在食品理化化驗中，儀器量測精度（如小數點後兩位）有限，不同生產批次或相鄰儲酒桶具有相同理化測量值且由不同專家評鑑，屬於合理的客觀現象。為完整保留 Cortez et al. (2009) 之經典評測分佈，本專案全數保留該 1,599 筆樣本，不人為隨意剔除。
+  > **物聯網數據分析與應用決策**：在食品理化化驗中，儀器量測精度（如小數點後兩位）有限，不同生產批次或相鄰儲酒桶具有相同理化測量值且由不同專家評鑑，屬於合理的客觀現象。為完整保留 Cortez et al. (2009) 之經典評測分佈，本專案全數保留該 1,599 筆樣本，不人為隨意剔除。
 
 ### 2.3 探索性資料分析 (EDA) 與視覺化
 
@@ -366,3 +366,4 @@ print(f"95% 預測區間: [{lower_pi:.2f}, {upper_pi:.2f}]")
 | [prediction_interval.png](file:///c:/Users/john1/Desktop/物聯網/1015/prediction_interval.png) | 95% 保形預測區間圖 (Split Conformal) | 已生成 |
 | [exploratory_scatter_plots.png](file:///c:/Users/john1/Desktop/物聯網/1015/exploratory_scatter_plots.png) | 關鍵理化特徵與品質探索散佈圖 | 已生成 |
 | [HW2_Report.md](file:///c:/Users/john1/Desktop/物聯網/1015/HW2_Report.md) | 完整 CRISP-DM 結案分析報告 (Markdown) | 本報告 |
+

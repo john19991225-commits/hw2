@@ -1,5 +1,5 @@
-# 紅酒品質多元線性迴歸預測分析 (Red Wine Quality Prediction)
-### 資料探勘作業二 (Data Mining Homework 2) — CRISP-DM 實踐與保形預測區間分析
+﻿# 紅酒品質多元線性迴歸預測分析 (Red Wine Quality Prediction)
+### 物聯網數據分析與應用作業二 (IoT Data Analysis and Applications Homework 2) — CRISP-DM 實踐與保形預測區間分析
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2+-orange.svg)](https://scikit-learn.org/)
@@ -9,7 +9,7 @@
 
 ## 專案簡介 (Project Overview)
 
-本專案為大學部/研究所「資料探勘」課程作業二，基於跨行業資料探勘標準流程（**CRISP-DM**），針對葡萄牙「Vinho Verde」紅酒資料集構建品質預測模型。核心分析以 **多元線性迴歸 (Multiple Linear Regression)** 為必選主模型，並引入 **Ridge 脊迴歸** 與 **Random Forest Regressor 隨機森林** 作為對照組。此外，專案引入現代統計不確定性量化黃金標準——**分割保形預測 (Split Conformal Prediction)**，為預測評分提供具備嚴謹有限樣本保證的 95% 預測區間。
+本專案為大學部/研究所「物聯網數據分析與應用」課程作業二，基於跨行業物聯網數據分析與應用標準流程（**CRISP-DM**），針對葡萄牙「Vinho Verde」紅酒資料集構建品質預測模型。核心分析以 **多元線性迴歸 (Multiple Linear Regression)** 為必選主模型，並引入 **Ridge 脊迴歸** 與 **Random Forest Regressor 隨機森林** 作為對照組。此外，專案引入現代統計不確定性量化黃金標準——**分割保形預測 (Split Conformal Prediction)**，為預測評分提供具備嚴謹有限樣本保證的 95% 預測區間。
 
 - **資料集來源 (Kaggle)**：[Red Wine Quality Dataset (Cortez et al., 2009)](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
 - **原始論文出處**：Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). *Modeling wine preferences by data mining from physicochemical properties*. Decision Support Systems, 47(4), 547-553.
@@ -229,6 +229,7 @@ graph TD
 ## 執行方式 (How to Run)
 
 ```bash
-# 執行完整資料探勘管線
+# 執行完整物聯網數據分析與應用管線
 python hw2.py
 ```
+
