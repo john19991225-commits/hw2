@@ -33,3 +33,6 @@ desktop.ini
 *.pdf
 submission/
 submission_*/
+
+# Approved document for repository publication
+!documents/ChatGPT_Conversation.pdf

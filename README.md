@@ -196,9 +196,13 @@ graph TD
 
 ---
 
-## 文獻研讀與 NotebookLM 摘要 (Literature Review)
+## AI 輔助與研究紀錄
 
-本專案已完成 Cortez et al. (2009) 原始論文之 **Google NotebookLM 文獻研讀與對比分析**（詳見 [`HW2_Report.md`](HW2_Report.md) 第八階段）：
+本專案遵循負責任的 AI 協作原則，完整保留文獻研讀與對話紀錄供學術審查：
+- 📄 **NotebookLM 文獻研讀摘要**：[`documents/NotebookLM_Summary.md`](documents/NotebookLM_Summary.md)（提取自結案報告第八階段，記錄 Cortez et al. 2009 原文與多元線性迴歸實作之深度比較）
+- 💬 **ChatGPT 協作對話紀錄**：[`documents/ChatGPT_Conversation.pdf`](documents/ChatGPT_Conversation.pdf)（記錄從商業理解、Pipeline 防洩漏設計到保形預測區間之完整 AI 協作過程）
+
+### 文獻研讀重點精要 (Cortez et al., 2009 對比)
 - **原論文基準對比**：原文中支援向量機（SVM, MAD = 0.46）展現最佳擬合能力，多元線性迴歸（MR, MAD = 0.50）與類神經網路（NN, MAD = 0.51）表現相近。
 - **特徵重要度啟發**：原文經敏感度分析證實硫酸鹽、pH、總二氧化硫與酒精為最關鍵特徵，與本專案 5 折交叉驗證特徵選取（$k=8$ 最佳組合）相呼應。
 - **本專案特色演進**：在 Python Scikit-Learn 框架下建立了嚴格防止資料外洩的 Pipeline，並額外實作了**分割保形預測（Split Conformal Prediction）**，將傳統點預測推進至具備統計覆蓋保證之區間預測。
