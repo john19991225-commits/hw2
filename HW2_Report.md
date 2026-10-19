@@ -4,9 +4,9 @@
 
 ## 專案基本資訊
 - **學生姓名**：[待填寫]
-- **學號**：[待填寫，例如 7115056206]
+- **學號**：7115056206
 - **課程名稱**：資料探勘 (Data Mining)
-- **程式檔案**：[hw2.py](file:///c:/Users/john1/Desktop/物聯網/1015/hw2.py)（繳交前將重新命名為學號，如 `7115056206.py`）
+- **程式檔案**：[hw2.py](hw2.py)（繳交版本命名為 `7115056206.py`）
 - **資料集來源**：Kaggle Red Wine Quality Dataset (Cortez et al., 2009)
   - Kaggle 原始連結：[https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
   - UCI 原始論文出處：Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). *Modeling wine preferences by data mining from physicochemical properties*. Decision Support Systems, 47(4), 547-553.
