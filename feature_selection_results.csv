@@ -1,0 +1,12 @@
+Number of Features,Selected Features,CV RMSE,CV RMSE Std,CV MAE,CV R-squared
+1,alcohol,0.7120259560665361,0.020126202068108442,0.5577475532230124,0.21619164243358577
+2,volatile acidity; alcohol,0.6740583123683507,0.010227680849395814,0.5259543977126899,0.2966046665005207
+3,volatile acidity; sulphates; alcohol,0.6670379701073166,0.012808777556418405,0.5161096711933355,0.3112858112641138
+4,volatile acidity; citric acid; sulphates; alcohol,0.6667100890257944,0.012242459391654597,0.5146009292530651,0.31195778022014975
+5,volatile acidity; citric acid; total sulfur dioxide; sulphates; alcohol,0.663384139879461,0.012073394886262738,0.5089516347588015,0.3192138765913861
+6,volatile acidity; citric acid; total sulfur dioxide; density; sulphates; alcohol,0.6633268846285714,0.012367302184388038,0.508882661502261,0.31936503185122755
+7,volatile acidity; citric acid; chlorides; total sulfur dioxide; density; sulphates; alcohol,0.6612842398600669,0.012639703852024899,0.50799642399983,0.32374110348915064
+8,fixed acidity; volatile acidity; citric acid; chlorides; total sulfur dioxide; density; sulphates; alcohol,0.6592689482739235,0.012829788257133955,0.5067363028892145,0.3276026964862552
+9,fixed acidity; volatile acidity; citric acid; chlorides; free sulfur dioxide; total sulfur dioxide; density; sulphates; alcohol,0.6594076319168541,0.015656108328432103,0.5062776080614191,0.3274246471084861
+10,fixed acidity; volatile acidity; citric acid; chlorides; free sulfur dioxide; total sulfur dioxide; density; pH; sulphates; alcohol,0.6603530711118295,0.015130162139213713,0.5057619723027449,0.325819620773515
+11,fixed acidity; volatile acidity; citric acid; residual sugar; chlorides; free sulfur dioxide; total sulfur dioxide; density; pH; sulphates; alcohol,0.6617862488269399,0.013591386482118394,0.5057234997428417,0.3226204834180566
