@@ -27,3 +27,8 @@ desktop.ini
 # Logs and temporary files
 *.log
 *.tmp
+
+# Personal submission archives and PDFs (Never push to public GitHub)
+*.zip
+*.pdf
+submission/
